@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+    <title>Piedra, papel, tijera</title>
+    
+</head>
+<body>
+    <h1>Piedra, Papel, Tijera</h1>
+    <h2 id="demo">Prueba suerte</h2>
+    <div class="selection">
+        <button class="boton-jugada" data-jugada="piedra"><img src="./img/rockIcon.png" alt="Piedra"></button>
+        <button class="boton-jugada" data-jugada="papel"><img src="./img/paperIcon.png" alt="Papel"></button>
+        <button class="boton-jugada" data-jugada="tijera"><img src="./img/scissorsICon.png" alt="Tijera"></button>
+    </div>
+    
+    <div id="resultado">
+        <div class="info">
+            <img id="playerChoice" src="/img/userIcon.png" alt="Tu elección">
+            <span id="contador-usuario">0</span>
+        </div>
+        <div class="info">
+            <img id="computerChoice" src="/img/computerIcon.png" alt="Elección de la computadora">
+            <span id="contador-ordenador">0</span>
+        </div>
+    </div>
+	<script src="./js/scripto.js"></script>
+</body>
+</html>
+
+<!-- By Javier Santiago Anguis -->

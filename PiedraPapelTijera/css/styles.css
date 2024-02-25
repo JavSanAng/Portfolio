@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Scary';
+    src: url('/fonts/scaryFont.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Antology';
+    src: url('/fonts/antologyFont.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Puerto';
+    src: url('/fonts/puertoFont.otf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Scary', sans-serif;
+	font-size: 48px;
+    font-weight: 800;
+	color: rgb(218, 136, 61);
+    margin: 15px 0;
+
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info img {
+    margin-right: 10px;
+    width: 40px; 
+}
+
+#resultado {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 20px;
+}
+
+#contador-usuario,
+#contador-ordenador {
+    font-size: 35px; 
+    font-family: 'Antology';
+}
+
+#contador-usuario {
+    margin-right: 15%;
+}
+
+.div .info {
+    background: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+h2 {
+    font-family: 'Puerto';
+	font-size: 28px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 100px;
+}
+
+.selection button {
+    display: block;
+    margin: 0 20px;
+    padding: 5%;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: ivory;
+    border: none;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.selection button:hover {
+    transform: scale(1.2);
+    background-color: #7FB3D5 ;
+    border-color: #17A589 ;
+}
+
+.selection {
+    color: #E9F7EF  ;
+
+}
+
+/* By Javier Santiago Anguis */
